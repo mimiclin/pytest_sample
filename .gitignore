@@ -1,0 +1,13 @@
+*.jpg
+
+*.png
+
+*.pyc
+
+.idea/
+
+allure*/
+
+poetry.lock
+
+pyproject.toml

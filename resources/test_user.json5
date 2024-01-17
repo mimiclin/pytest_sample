@@ -1,0 +1,31 @@
+[
+    {
+        "test_case": "user_login",
+        "req_method": "post",
+        "req_url": "/api/v1/login",
+        "json" : {"country":"CN","phone":"","password":"","device_id":"d520c7a8-421b-4563-b955-f5abc56b97ec-0246991","grant_type":"password"},
+        "test_item": [
+            {"scenario":"[Login] success","target":{"phone":"862260000001", "password":"abc12345"},"params": {},"code_status": 200},
+            {"scenario":"[Login] fail","target":{"country":"TW","phone":"862260000001", "password":"abc12345"},"params": {},"code_status": 400},
+            {"scenario":"[Login] sample to show failed case","target":{"country":"TW","phone":"862260000001", "password":"abc12345"},"params": {},"code_status": 200}
+        ]
+    },
+    {
+        "test_case": "user_me",
+        "req_method": "get",
+        "req_url": "/api/v1/users/me",
+        "json" : {},
+        "test_item": [
+            {"scenario":"[Me] success","target":{},"params": {},"code_status": 200},
+        ]
+    },
+    {
+        "test_case": "user_logout",
+        "req_method": "post",
+        "req_url": "/api/v1/logout",
+        "json" : {},
+        "test_item": [
+            {"scenario":"[Logout] success","target":{},"params": {},"code_status": 200},
+        ]
+    }
+]

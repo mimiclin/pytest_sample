@@ -1,0 +1,11 @@
+[
+    {
+        "test_case": "get_sample_data",
+        "json" : {"country":"CN","phone":"","password":""},
+        "test_item": [
+            {"scenario":"[Get data] correct user data","target":{"phone":"862260000001", "password":"abc12345"}, "expected_result": "pass"},
+            {"scenario":"[Get data] wrong user data","target":{"country":"TW","phone":"862260000001", "password":"abc12345"}, "expected_result": "pass"},
+            {"scenario":"[Get data] sample to show failed case","target":{"country":"TW","phone":"862260000001", "password":"abc12345"}, "expected_result": "fail"}
+        ]
+    }
+]

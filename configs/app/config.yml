@@ -1,0 +1,293 @@
+channel:
+    common:
+        poco: 
+            package: com.netease.open.pocoservice
+    lv: 
+        uat:
+            package: com.lv.app.v2
+            bundle_id: com.lv.app.v2
+        stage:
+            package: com.lv.app.v2
+            bundle_id: com.lv.app.v2
+        prod:
+            package: com.lv.app.v2
+            bundle_id: com.lv.app.v2
+        
+    ls:
+        uat:
+            package: com.ls.app.v2
+            bundle_id: com.ls.app.v2
+        stage:
+            package: com.ls.app.v2
+            bundle_id: com.ls.app.v2
+        prod:
+            package: com.ls.app.v2
+            bundle_id: com.ls.app.v2
+        
+    c7:
+        uat:
+            package: com.c7.app.v2
+            bundle_id: com.c7.app.v2
+        stage:
+            package: com.c7.app.v2
+            bundle_id: com.c7.app.v2
+        prod:
+            package: com.c7.app.v2
+            bundle_id: com.c7.app.v2
+        
+    c8: 
+        uat:
+            package: com.c8.app.v2
+            bundle_id: com.c8.app.v2
+        stage:
+            package: com.c8.app.v2
+            bundle_id: com.c8.app.v2
+        prod:
+            package: com.c8.app.v2
+            bundle_id: com.c8.app.v2
+        
+    tz:
+        uat:
+            package: com.tz.app.v2
+            bundle_id: com.tz.app.v2
+        stage:
+            package: com.tz.app.v2
+            bundle_id: com.tz.app.v2
+        prod:
+            package: com.tz.app.v2
+            bundle_id: com.tz.app.v2
+        
+    hy:
+        uat:
+            package: com.hy.app.v2
+            bundle_id: com.hy.app.v2
+        stage:
+            package: com.hy.app.v2
+            bundle_id: com.hy.app.v2
+        prod:
+            package: com.hy.app.v2
+            bundle_id: com.hy.app.v2
+        
+    sc:
+        uat:
+            package: com.sc.app.v2
+            bundle_id: com.sc.app.v2
+        stage:
+            package: com.sc.app.v2
+            bundle_id: com.sc.app.v2
+        prod:
+            package: com.sc.app.v2
+            bundle_id: com.sc.app.v2
+        
+    bh:
+        uat:
+            package: com.bh.app.v2
+            bundle_id: com.bh.app.v2
+        stage:
+            package: com.bh.app.v2
+            bundle_id: com.bh.app.v2
+        prod:
+            package: com.bh.app.v2
+            bundle_id: com.bh.app.v2
+        
+    3h:
+        uat:
+            package: com.sh.app.v2
+            bundle_id: com.sh.app.v2
+        stage:
+            package: com.sh.app.v2
+            bundle_id: com.sh.app.v2
+        prod:
+            package: com.sh.app.v2
+            bundle_id: com.sh.app.v2
+        
+    cdd:
+        uat:
+            package: com.cdd.app.v2
+            bundle_id: com.cdd.app.v2
+        stage:
+            package: com.cdd.app.v2
+            bundle_id: com.cdd.app.v2
+        prod:
+            package: com.cdd.app.v2
+            bundle_id: com.cdd.app.v2
+        
+    xpj:
+        uat:
+            package: app.xpj.android.uat
+            bundle_id: com.xpj.uat
+        stage:
+            package: app.xpj.android.stage
+            bundle_id: com.xpj.stage
+        prod:
+            package: app.xpj.android
+            bundle_id: com.acescorer.app
+    
+    lv_new: 
+        uat:
+            package: app.lv.android.uat
+            bundle_id: com.lvnew.uat
+        stage:
+            package: app.lv.android.stage
+            bundle_id: com.lvnew.stage
+        prod:
+            package: app.lv.android
+            bundle_id: com.sweetworlddount.app
+        
+    ls_new:
+        uat:
+            package: app.ls.android.uat
+            bundle_id: com.lsnew.uat
+        stage:
+            package: app.ls.android.stage
+            bundle_id: com.lsnew.stage
+        prod:
+            package: app.ls.android
+            bundle_id: com.crazywoodpecker.app
+        
+    c7_new:
+        uat:
+            package: app.cseven.android.uat
+            bundle_id: com.c7new.uat
+        stage:
+            package: app.cseven.android.stage
+            bundle_id: com.c7new.stage
+        prod:
+            package: app.cseven.android
+            bundle_id: com.mathtimenew.app
+        
+    c8_new: 
+        uat:
+            package: app.ceight.android.uat
+            bundle_id: com.c8new.uat
+        stage:
+            package: app.ceight.android.stage
+            bundle_id: com.c8new.stage
+        prod:
+            package: app.ceight.android
+            bundle_id: com.soccerfairiesnew.app
+        
+    tz_new:
+        uat:
+            package: app.tz.android.uat
+            bundle_id: com.tznew.uat
+        stage:
+            package: app.tz.android.stage
+            bundle_id: com.tznew.stage
+        prod:
+            package: app.tz.android
+            bundle_id: com.princesscrystal.app
+        
+    hy_new:
+        uat:
+            package: app.hy.android.uat
+            bundle_id: com.hynew.uat
+        stage:
+            package: app.hy.android.stage
+            bundle_id: com.hynew.stage
+        prod:
+            package: app.hy.android
+            bundle_id: com.supermouse.app
+        
+    sc_new:
+        uat:
+            package: app.sc.android.uat
+            bundle_id: com.scnew.uat
+        stage:
+            package: app.sc.android.stage
+            bundle_id: com.scnew.stage
+        prod:
+            package: app.sc.android
+            bundle_id: com.jumpupquickly.app
+        
+    bh_new:
+        uat:
+            package: app.tyc.android.uat
+            bundle_id: com.tyc.uat
+        stage:
+            package: app.tyc.android.stage
+            bundle_id: com.tyc.stage
+        prod:
+            package: app.tyc.android
+            bundle_id: com.adventurouskitty.app
+        
+    3h_new:
+        uat:
+            package: app.threeh.android.uat
+            bundle_id: com.3hnew.uat
+        stage:
+            package: app.threeh.android.stage
+            bundle_id: com.3hnew.stage
+        prod:
+            package: app.threeh.android
+            bundle_id: com.patternnote.app
+        
+    cdd_new:
+        uat:
+            package: app.cdd.android.uat
+            bundle_id: com.cddnew.uat
+        stage:
+            package: app.cdd.android.stage
+            bundle_id: com.cddnew.stage
+        prod:
+            package: app.cdd.android
+            bundle_id: com.cakestackingnew.app
+        
+    co:
+        uat:
+            package: app.co.android.uat
+            bundle_id: com.co.uat
+        stage:
+            package: app.co.android.stage
+            bundle_id: com.co.stage
+        prod:
+            package: app.co.android
+            bundle_id: com.digmarsnew.app
+    
+    ttmj:
+        uat:
+            package: com.ttmj.app.uat
+            bundle_id: com.ttmj.uat1
+        stage:
+            package: com.ttmj.app.stage
+            bundle_id: com.ttmj.stage1
+        prod:
+            package: com.ttmj.app
+            bundle_id: com.slimeclimbing.app    
+
+    zqb:
+        uat:
+            package: com.zqb.app.uat
+            bundle_id: com.zqb.app.uat
+        stage:
+            package: com.zqbzqb.app.stage
+            bundle_id: com.zqbzqb.app.stage
+    zab:
+        uat:
+            package: com.zab.app.uat
+            bundle_id: com.zab.app.uat    
+        stage:
+            package: com.zab.app.stage
+            bundle_id: com.zab.app.stage
+
+    gu: 
+        uat:
+            package: app.guchat.android.uat
+            bundle_id: com.chatRoom.app.uat
+        prod:
+            package: app.guchat.android
+            bundle_id: app.goodtalk.rn
+    meet:
+        uat:
+            package: app.meetchat.android.uat
+            bundle_id: com.meeChat.rn.uat
+        prod:
+            package: app.meetchat.android
+            bundle_id: com.meeChat.rn
+    s365:
+        uat:
+            package: app.threesixtyfivechat.android.uat
+            bundle_id: app.threesixtyfivechat.rn.uat
+        prod:
+            package: app.threesixtyfivechat.android
+            bundle_id: app.threesixtyfivechat.rn
