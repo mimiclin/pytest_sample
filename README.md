@@ -35,7 +35,13 @@ pytest_sample
 ### 需求套件
 >* allure-combine 1.0.11
 >* allure-pytest 2.13.2
->* pytest 7.4.3
+>* pytest 7.4.4
+>* requests 2.31.0
+>* selenium 4.16.0
+>* airtest 1.3.3
+>* pocoui 1.0.94
+>* json5 0.9.14
+>* pyyaml 6.0.1
 
 ### 產生可獨立開啟的 Allure report file (html)
 > 1. 執行pytest測試，並將測試結果存在目錄【allure-results】
